@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'title': 'Home',
-        'content': 'Главная страница интернет магазина - Home'
+        'title': 'Textura - Главная',
+        'content': 'Магазин тканей Textura'
     }
     return render(request, 'main/index.html', context)
 
