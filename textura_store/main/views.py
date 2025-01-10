@@ -9,4 +9,9 @@ def index(request):
     return render(request, 'main/index.html', context)
 
 def about(request):
-    return HttpResponse("About page")
+    context = {
+        'title': 'Textura - О нас',
+        'content': 'О нас',
+        'text_on_page': 'Добро пожаловать в интернет-магазин Textura — место, где стиль, комфорт и качество встречаются для создания идеального пространства!',
+    }
+    return render(request, 'main/about.html', context)
