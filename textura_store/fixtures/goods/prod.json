@@ -1,0 +1,506 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 1,
+        "fields": {
+            "name": "Хлопковая ткань для постельного белья",
+            "slug": "hlopkovaya-tkan-dlya-postelnogo-belya",
+            "description": "Мягкая и дышащая ткань из 100% хлопка для комфортного сна.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 10,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "Хлопковая ткань для рубашек",
+            "slug": "hlopkovaya-tkan-dlya-rubashek",
+            "description": "Лёгкая и прочная ткань для пошива стильной одежды.",
+            "image": "",
+            "price": "12.00",
+            "discount": "0.00",
+            "quantity": 15,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Хлопковая ткань для скатертей",
+            "slug": "hlopkovaya-tkan-dlya-skatertej",
+            "description": "Плотная ткань с защитным покрытием, идеальная для кухонных аксессуаров.",
+            "image": "",
+            "price": "10.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Ткань из органического хлопка",
+            "slug": "tkan-iz-organicheskogo-hlopka",
+            "description": "Экологически чистая ткань для пошива одежды и аксессуаров.",
+            "image": "",
+            "price": "18.00",
+            "discount": "0.00",
+            "quantity": 20,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Хлопковая ткань с цветочным узором",
+            "slug": "hlopkovaya-tkan-s-cvetochnym-uzorom",
+            "description": "Яркий и привлекательный узор для создания летнего настроения.",
+            "image": "",
+            "price": "14.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Плотный хлопковый сатин",
+            "slug": "plotnyj-hlopkovyj-satin",
+            "description": "Шелковистая ткань, подходящая для постельного белья премиум-класса.",
+            "image": "",
+            "price": "20.00",
+            "discount": "0.00",
+            "quantity": 9,
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Шерстяной кашемир",
+            "slug": "sherstyanoj-kashemir",
+            "description": "Ультра мягкая ткань для тёплых пальто и шарфов.",
+            "image": "",
+            "price": "35.00",
+            "discount": "0.00",
+            "quantity": 4,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Шерсть мериноса",
+            "slug": "sherst-merinosa",
+            "description": "Дышащая и эластичная ткань для активного образа жизни.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Плотная шерстяная ткань",
+            "slug": "plotnaya-sherstyanaya-tkan",
+            "description": "Идеально подходит для создания зимних пальто и жакетов.",
+            "image": "",
+            "price": "30.00",
+            "discount": "0.00",
+            "quantity": 2,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Шерстяная ткань с узором «гусиная лапка»",
+            "slug": "sherstyanaya-tkan-gusinaya-lapka",
+            "description": "Классический узор для стильных костюмов.",
+            "image": "",
+            "price": "28.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Шерстяной твид",
+            "slug": "sherstyanoj-tvid",
+            "description": "Прочная и теплая ткань для костюмов и юбок.",
+            "image": "",
+            "price": "22.00",
+            "discount": "0.00",
+            "quantity": 7,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Шерстяная ткань с кашемиром",
+            "slug": "sherstyanaya-tkan-s-kashemirom",
+            "description": "Смесь шерсти и кашемира для создания уютных вещей.",
+            "image": "",
+            "price": "40.00",
+            "discount": "0.00",
+            "quantity": 9,
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 13,
+        "fields": {
+            "name": "Натуральный шёлк",
+            "slug": "naturalnyj-shyolk",
+            "description": "Роскошная ткань для вечерних платьев и блузок.",
+            "image": "",
+            "price": "50.00",
+            "discount": "0.00",
+            "quantity": 12,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 14,
+        "fields": {
+            "name": "Шёлковый атлас",
+            "slug": "shyolkovyj-atlas",
+            "description": "Идеален для создания свадебных платьев и костюмов.",
+            "image": "",
+            "price": "55.00",
+            "discount": "0.00",
+            "quantity": 14,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 15,
+        "fields": {
+            "name": "Шёлковый шифон",
+            "slug": "shyolkovyj-shifon",
+            "description": "Прозрачная ткань для лёгких платьев и шарфов.",
+            "image": "",
+            "price": "45.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 16,
+        "fields": {
+            "name": "Шёлковая органза",
+            "slug": "shyolkovaya-organza",
+            "description": "Лёгкая и блестящая ткань для декоративных элементов.",
+            "image": "",
+            "price": "48.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 17,
+        "fields": {
+            "name": "Шёлковый крепдешин",
+            "slug": "shyolkovyj-krepdeshin",
+            "description": "Матовая ткань для пошива элегантной одежды.",
+            "image": "",
+            "price": "52.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 18,
+        "fields": {
+            "name": "Шёлковая ткань с узором",
+            "slug": "shyolkovaya-tkan-s-uzorom",
+            "description": "Яркий дизайн для уникальных изделий.",
+            "image": "",
+            "price": "60.00",
+            "discount": "0.00",
+            "quantity": 7,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 19,
+        "fields": {
+            "name": "Натуральный лен",
+            "slug": "naturalnyj-len",
+            "description": "Дышащая ткань для создания летней одежды.",
+            "image": "",
+            "price": "18.00",
+            "discount": "0.00",
+            "quantity": 2,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 20,
+        "fields": {
+            "name": "Льняная ткань для штор",
+            "slug": "lnyanaya-tkan-dlya-shtor",
+            "description": "Прочная и стильная ткань для декорирования окон.",
+            "image": "",
+            "price": "20.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 21,
+        "fields": {
+            "name": "Цветной лен",
+            "slug": "cvetnoj-len",
+            "description": "Яркая и стойкая ткань для различных интерьеров.",
+            "image": "",
+            "price": "22.00",
+            "discount": "0.00",
+            "quantity": 9,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 22,
+        "fields": {
+            "name": "Льняной габардин",
+            "slug": "lnyanoj-gabardin",
+            "description": "Износостойкая ткань для стильных изделий.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 23,
+        "fields": {
+            "name": "Льняной жаккард",
+            "slug": "lnyanoj-zhakkard",
+            "description": "Уникальная ткань с замысловатым узором.",
+            "image": "",
+            "price": "30.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 24,
+        "fields": {
+            "name": "Смесь льна и хлопка",
+            "slug": "smes-lna-i-hlopka",
+            "description": "Приятная на ощупь ткань для универсального использования.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 25,
+        "fields": {
+            "name": "Полиэстер",
+            "slug": "poliester",
+            "description": "Прочная и износостойкая ткань для пошива одежды.",
+            "image": "",
+            "price": "12.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 26,
+        "fields": {
+            "name": "Нейлон",
+            "slug": "nejlon",
+            "description": "Лёгкая ткань для спортивной и повседневной одежды.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 4,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 27,
+        "fields": {
+            "name": "Акриловая ткань",
+            "slug": "akrilovaya-tkan",
+            "description": "Ткань, напоминающая шерсть, но более лёгкая.",
+            "image": "",
+            "price": "10.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 28,
+        "fields": {
+            "name": "Эластан",
+            "slug": "elastan",
+            "description": "Эластичная ткань для спортивной и комфортной одежды.",
+            "image": "",
+            "price": "20.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 29,
+        "fields": {
+            "name": "Микрофибра",
+            "slug": "mikrofibra",
+            "description": "Мягкая ткань для постельного белья и одежды.",
+            "image": "",
+            "price": "18.00",
+            "discount": "0.00",
+            "quantity": 3,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 30,
+        "fields": {
+            "name": "Полиамид",
+            "slug": "poliamid",
+            "description": "Прочная ткань для верхней одежды.",
+            "image": "",
+            "price": "22.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 31,
+        "fields": {
+            "name": "Трикотажная ткань для платьев",
+            "slug": "trikotazhnaya-tkan-dlya-platev",
+            "description": "Эластичная и мягкая ткань для пошива повседневной одежды.",
+            "image": "",
+            "price": "15.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 32,
+        "fields": {
+            "name": "Трикотажный хлопок",
+            "slug": "trikotazhnyj-hlopok",
+            "description": "Дышащая ткань для спортивной одежды.",
+            "image": "",
+            "price": "18.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 33,
+        "fields": {
+            "name": "Шерстяной трикотаж",
+            "slug": "sherstyanoj-trikotazh",
+            "description": "Теплая ткань для создания уютных вещей.",
+            "image": "",
+            "price": "22.00",
+            "discount": "0.00",
+            "quantity": 8,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 34,
+        "fields": {
+            "name": "Трикотаж с узором",
+            "slug": "trikotazh-s-uzorom",
+            "description": "Ткань с ярким дизайном для уникальных изделий.",
+            "image": "",
+            "price": "25.00",
+            "discount": "0.00",
+            "quantity": 11,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 35,
+        "fields": {
+            "name": "Эластичный трикотаж",
+            "slug": "elastichnyj-trikotazh",
+            "description": "Идеален для создания обтягивающей одежды.",
+            "image": "",
+            "price": "20.00",
+            "discount": "0.00",
+            "quantity": 5,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 36,
+        "fields": {
+            "name": "Смешанный трикотаж",
+            "slug": "smeshannyj-trikotazh",
+            "description": "Смесь натуральных и синтетических волокон для универсальности.",
+            "image": "",
+            "price": "18.00",
+            "discount": "0.00",
+            "quantity": 7,
+            "category": 7
+        }
+    }
+]
