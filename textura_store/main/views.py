@@ -4,7 +4,6 @@ from django.shortcuts import render
 
 
 def index(request):
-
     context = {
         "title": "Textura - Главная",
         "content": "Магазин тканей Textura",
