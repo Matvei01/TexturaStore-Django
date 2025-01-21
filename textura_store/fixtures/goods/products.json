@@ -18,7 +18,7 @@
         "pk": 2,
         "fields": {
             "name": "Оксфорд",
-            "slug": "oksford",
+            "slug": "oxford",
             "description": "Ткань с мелким клетчатым плетением. Используется для рубашек и аксессуаров.",
             "image": "goods_images/cotton_oxford.jpg",
             "price": "12.00",
