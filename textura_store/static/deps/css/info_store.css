@@ -1,0 +1,26 @@
+/* Убедимся, что body и html занимают всю высоту экрана */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Контейнер для контента */
+.content-container {
+    flex: 1; /* Растягиваем контент на всю доступную высоту */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Выравниваем контент по центру */
+    overflow: auto; /* Если контент не помещается, включается прокрутка */
+    padding-bottom: 60px; /* Добавляем отступ снизу */
+}
+
+/* Футер фиксируем внизу */
+footer {
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 80px; /* Отступ перед футером */
+}
