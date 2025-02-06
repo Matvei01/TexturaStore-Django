@@ -20,7 +20,10 @@ class UserRegistrationForm(UserCreationForm):
             "email",
             "password1",
             "password2",
+            "is_subscribed",
         )
+
+    is_subscribed = forms.BooleanField(required=False, label="Подписаться на рассылку")
     
     first_name = forms.CharField()
     last_name = forms.CharField()

@@ -58,6 +58,8 @@ class UserRegistrationView(CreateView):
         session_key = self.request.session.session_key
         user = form.instance
 
+        user.is_subscribed = form.cleaned_data.get("is_subscribed", False)
+
         if user:
             form.save()
             auth.login(self.request, user)

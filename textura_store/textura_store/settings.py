@@ -14,6 +14,8 @@ from pathlib import Path
 
 from django.conf.global_settings import AUTH_USER_MODEL, MEDIA_ROOT, MEDIA_URL
 
+from decouple import config
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -48,6 +50,9 @@ INSTALLED_APPS = [
     "users",
     "carts",
     "orders",
+    "promotions",
+
+    "django_q",
 ]
 
 MIDDLEWARE = [
@@ -155,3 +160,21 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = 'users.User'
 LOGIN_URL = '/user/login/'
 LOGIN_REDIRECT_URL = '/'
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.yandex.ru"
+EMAIL_PORT = 465 
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = config("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+Q_CLUSTER = {
+    "name": "DjangoQ",
+    "workers": 4,  # Количество воркеров
+    "timeout": 60,  # Время выполнения задачи (секунды)
+    "retry": 300,  # Повторный запуск через 5 минут при сбое
+    "queue_limit": 50,  # Максимальное количество задач в очереди
+    "bulk": 10,  # Обрабатывает до 10 задач за раз
+    "orm": "default",
+}
