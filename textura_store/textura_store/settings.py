@@ -53,6 +53,8 @@ INSTALLED_APPS = [
     "promotions",
 
     "django_q",
+
+    "import_export",
 ]
 
 MIDDLEWARE = [
