@@ -93,7 +93,7 @@
                     <div class="d-flex justify-content-between">
 
                         {% if product.discount %}
-                            <p><s>{{product.price}}</s> ₽/м</p>
+                            <p><s>{{product.price}}</s></p>
                             <p><strong>{{ product.sell_price }} ₽/м</strong></p>
                             <span class="badge bg-warning text-dark">Скидка {{ product.discount }} %</span>
                         {% else %}
@@ -147,7 +147,7 @@
 {% block footer %}
 <footer class="py-4 bg-dark">
     <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Textura Studio 2025</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Textura Store 2025</p>
     </div>
 </footer>
 {% endblock  %}

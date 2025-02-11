@@ -51,6 +51,7 @@ class OrderAdmin(admin.ModelAdmin):
         "id",
         "user",
         "requires_delivery",
+        "delivery_address",
         "status",
         "payment_on_get",
         "is_paid",
@@ -59,6 +60,7 @@ class OrderAdmin(admin.ModelAdmin):
 
     search_fields = (
         "id",
+        "delivery_address",
     )
     readonly_fields = ("created_timestamp",)
     list_filter = (
