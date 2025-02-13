@@ -100,7 +100,7 @@ DATABASES = {
         'NAME': environ.get('POSTGRES_DB'),
         'USER': environ.get('POSTGRES_USER'),
         'PASSWORD': environ.get('POSTGRES_PASSWORD'),
-        'HOST': 'localhost',
+        'HOST': 'db',
         'POST': environ.get('POSTGRES_PORT'),
     }
 }
