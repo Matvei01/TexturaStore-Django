@@ -13,6 +13,7 @@ fi
 
 python manage.py makemigrations
 python manage.py migrate
+python manage.py collectstatic --noinput
 python manage.py loaddata fixtures/goods/categories.json
 python manage.py loaddata fixtures/goods/products.json
 
