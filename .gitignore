@@ -1,0 +1,20 @@
+#python stuff
+venv/
+.pylintrc
+__pycache__/
+cache/
+
+#ide stuff
+.vscode
+.idea
+
+#env files
+.env.dev
+.env.prod
+
+#django stuff
+db.sqlite3
+media/
+
+# Ignore .DS_Store file
+.DS_Store

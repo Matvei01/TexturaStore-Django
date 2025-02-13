@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'deps/css/my_footer_css.css' %}" />
+  <link rel="stylesheet" href="{% static 'deps/css/info_store.css' %}" />
+{% endblock %}
+
+{% block modal_cart %}
+  {% include "includes/cart_button.html" %}
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5 pt-5 bg-white custom-shadow rounded p-4 content-container">
+    <h2 class="m-2"><strong>Контакты</strong></h2>
+
+    <h4>📍 Наш офис</h4>
+    <p><strong>Адрес:</strong> г. {{ city }}, ул. {{ street }}, д. {{ house_number }}, офис {{ office_number }}</p>
+
+    <h4>📞 Телефоны</h4>
+    <p><strong>Мобильный:</strong> <a href="tel:{{ phone_mobile }}">{{ phone_mobile }}</a></p>
+    <p><strong>Городской:</strong> <a href="tel:{{ phone_landline }}">{{ phone_landline }}</a></p>
+
+    <h4>📧 Email</h4>
+    <p><strong>Общие вопросы:</strong> <a href="mailto:{{ email_info }}">{{ email_info }}</a></p>
+    <p><strong>Сотрудничество:</strong> <a href="mailto:{{ email_partners }}">{{ email_partners }}</a></p>
+    <p><strong>Поддержка:</strong> <a href="mailto:{{ email_support }}">{{ email_support }}</a></p>
+
+    <h4>🕒 Режим работы</h4>
+    <p><strong>Понедельник – Пятница:</strong> {{ work_hours_week }}</p>
+    <p><strong>Суббота – Воскресенье:</strong> {{ work_hours_weekend }}</p>
+
+    <h4>📲 Мы в соцсетях</h4>
+    <p>
+        <a href="{{ social_telegram }}" target="_blank">🔹 Telegram</a> |
+        <a href="{{ social_vk }}" target="_blank">📘 VK</a> |
+        <a href="{{ social_instagram }}" target="_blank">📷 Instagram</a> |
+        <a href="{{ social_youtube }}" target="_blank">📺 YouTube</a>
+    </p>
+</div>
+{% endblock %}
+
+{% block footer %}
+  <footer class="py-4 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Textura Store 2025</p>
+    </div>
+  </footer>
+{% endblock %}
